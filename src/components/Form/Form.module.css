@@ -1,0 +1,33 @@
+
+.labelBlock {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    
+}
+
+.formBlock {
+    border: 1px solid rgb(47, 44, 44);
+    border-radius: 4px;
+    width: 500px;
+    padding: 30px;
+
+}
+
+.input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.buttonAdd:hover {
+  background-color: rgb(134, 172, 173);
+  
+}
+
+.buttonAdd:focus {
+  background-color: rgb(134, 172, 173);
+  
+}

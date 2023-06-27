@@ -1,0 +1,30 @@
+
+.contactRender {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  padding-left: 20px; 
+}
+
+.contactRender::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: black;
+}
+
+.buttonDel:hover {
+  background-color: rgb(134, 172, 173);
+  
+}
+
+.buttonDel:focus {
+  background-color: rgb(134, 172, 173);
+  
+}
+
